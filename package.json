@@ -1,0 +1,23 @@
+{
+  "name": "expressapi",
+  "version": "2.0.0",
+  "description": "Express Web Server used for APIs used by any Labour System Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alfonso Monroy --> ponchit0021",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.3.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "graphql-server-express": "^1.3.2",
+    "graphql-tools": "^2.16.0",
+    "mongoose": "^4.13.7"
+  },
+  "devDependencies": {}
+}
